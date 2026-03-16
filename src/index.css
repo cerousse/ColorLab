@@ -10,8 +10,6 @@ body {
   background: #f4f5f7;
 }
 
-/* MAIN LAYOUT */
-
 .App {
   display: flex;
   height: 100vh;
@@ -159,50 +157,4 @@ body {
 canvas {
   flex: 1;
   background: white;
-}
-
-/* ------------------------- */
-/* 📱 MOBILE RESPONSIVE PART */
-/* ------------------------- */
-
-@media (max-width: 768px) {
-
-  .App {
-    flex-direction: column;
-  }
-
-  .Menu {
-    width: 100%;
-    min-width: unset;
-    border-right: none;
-    border-bottom: 1px solid #ddd;
-  }
-
-  .ToolsRow {
-    justify-content: space-between;
-  }
-
-  .ToolsGroup button {
-    width: 36px;
-    height: 36px;
-  }
-
-  .ColorPot {
-    width: 40px;
-    height: 40px;
-  }
-
-  .Palette {
-    padding: 6px;
-  }
-
-  .CanvasWrapper {
-    flex: 1;
-    min-height: 0;
-  }
-
-  canvas {
-    width: 100%;
-    height: 100%;
-  }
 }
